@@ -7,7 +7,7 @@ on:
       - closed
 permissions:
   id-token: write
-    contents: read
+  contents: read
 jobs:
   test:
     runs-on: ubuntu-latest
